@@ -23,6 +23,7 @@ int main()
 	friend1=share/2;
 	friend2=0;
 	
+	printf("total_bill=%f\n", total_bill);
 	printf("each person should pay share as shows \n");
 	printf("you=%f\n",you);
 	printf("friend1=%f\n",friend1);
@@ -34,3 +35,4 @@ int main()
 	
 
 } 
+
