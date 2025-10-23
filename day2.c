@@ -19,8 +19,8 @@ int main()
 	tip=(tip/100)*meal_cost;
 	total_bill=meal_cost+tax+tip;
 	share=total_bill/3;
-	you=share/2+share;
-	friend1=share/2+share;
+	you=share/2;
+	friend1=share/2;
 	friend2=0;
 	
 	printf("each person should pay share as shows \n");
@@ -32,4 +32,5 @@ int main()
 	return 0;
 	
 	
+
 } 
